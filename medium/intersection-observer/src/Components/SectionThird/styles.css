@@ -1,0 +1,16 @@
+.container-third{
+   height:100vh;
+   transform: translateY(+10%);
+   opacity:0;
+}
+
+.text{
+   font-size:18px;
+   letter-spacing: 1px;
+}
+
+.animate{
+   transform: translateY(0%);
+   opacity:1;
+   transition: all 0.5s linear;
+}
